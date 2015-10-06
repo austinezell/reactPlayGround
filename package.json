@@ -1,7 +1,6 @@
 {
   "name": "reactcrud",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,12 +9,22 @@
   "license": "ISC",
   "jspm": {
     "dependencies": {
-      "react": "npm:react@0.14.0-rc1"
+      "react": "npm:react@0.14.0-rc1",
+      "react-dom": "npm:react-dom@^0.14.0-rc1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinezell/reactPlayGround.git"
+  },
+  "bugs": {
+    "url": "https://github.com/austinezell/reactPlayGround/issues"
+  },
+  "homepage": "https://github.com/austinezell/reactPlayGround#readme",
+  "description": ""
 }
